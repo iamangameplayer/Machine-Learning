@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 import xgboost as xgb
 from sklearn.metrics import accuracy_score
 from sklearn.datasets import load_breast_cancer
-from tensorflow.python.keras.models import save_model
+
 
 X,y=load_breast_cancer(return_X_y=True)
 
